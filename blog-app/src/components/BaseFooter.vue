@@ -1,5 +1,5 @@
 <template>
-  <el-footer class="me-area">
+  <!--<el-footer class="me-area">
     <div class="me-footer">
       <p>Designed by
         <strong>
@@ -7,7 +7,7 @@
         </strong>
       </p>
     </div>
-  </el-footer>
+  </el-footer>-->
 
 </template>
 
