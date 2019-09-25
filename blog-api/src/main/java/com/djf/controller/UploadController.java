@@ -28,6 +28,9 @@ public class UploadController {
 
     @Value("${me.upload.path}")
     private String baseFolderPath;
+    
+    @Value("${me.url}")
+    private String baseUrl;
 
     @PostMapping("/upload")
     @RequiresAuthentication
@@ -45,12 +48,10 @@ public class UploadController {
         if (!baseFolder.exists()) {
             baseFolder.mkdirs();
         }
-
+        System.out.println(request.getServerName());
         url.append(request.getScheme())
                 .append("://")
-                .append(request.getServerName())
-                .append(":")
-                .append(request.getServerPort())
+                .append(baseUrl)
                 .append(request.getContextPath())
                 .append("/")
                 .append(filePath);
