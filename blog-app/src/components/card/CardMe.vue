@@ -3,7 +3,7 @@
     <h1 class="me-author-name">DJF</h1>
     <div class="me-author-description">
       <span><i class="el-icon-location-outline"></i> &nbsp;辽宁&沈阳</span>
-      <span><i class="me-icon-job"></i> &nbsp;大龄转行码农</span>
+      <span><i class="me-icon-job"></i> &nbsp;QQ:399258474</span>
     </div>
   </el-card>
 
@@ -14,7 +14,7 @@
     name: 'CardMe',
     data() {
       return {
-        qq: {title: 'QQ', message: '919431514'},
+        qq: {title: 'QQ', message: '399258474'},
         github: {
           title: 'github',
           message: '<a target="_blank" href="https://github.com/shimh-develop">https://github.com/shimh-develop</a>'
